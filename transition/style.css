@@ -1,4 +1,4 @@
-.yazi {
+/* .yazi {
   text-align: center;
   font-size: 2rem;
   margin: 2rem auto;
@@ -34,5 +34,58 @@
 }
 
 .yazi6:hover {
-  transform:scale(0.5) rotate(50deg);
+  transform: scale(0.5) rotate(50deg);
 }
+
+.box {
+  background-color: crimson;
+  width: 100px;
+  font-weight: 800;
+  height: 50px;
+  /* transition: background-color 3s, width 3s, height 3s; */
+/* transition: all 2s;
+transition-property: widht;
+transition-duration: 2s;
+transition-delay: 2s; */
+
+
+/* }
+
+.X:hover {
+  width: 200px;
+  height: 200px;
+  /* transform: translateX(50px); */
+/* background-color: yellow;
+
+
+}
+
+.Y {
+  transform: translateY(150px);
+}
+
+.XY {
+  transform: translate(100px, 50px);
+} 
+
+
+/* .btn-div{
+    text-align: center;
+} */
+
+.btn{
+    background-color:rgb(8, 129, 170);
+    border:2px solid gray;
+    padding:20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: background-color 3s cubic-bezier(0, 0.95, 0.73, 1.5),color 1s;
+}
+
+.btn:hover{
+    background-color: rgb(225, 31, 13);
+    border-radius: 25px;
+    width: 200px;
+    color:white;
+   
+} 
